@@ -5,7 +5,8 @@ font-size:20px;
 margin:50px
 }
 h1, h2, h3, h4, h5, h6{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-html{background-color: rgb(183, 170, 184);}
+h1, h2, h3, h4, h5, h6{text-align:center}
+html{background-color: rgb(216, 197, 204);}
 
 
 
