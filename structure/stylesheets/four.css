@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(forest3.jpg);
+    background-size: cover;
+}
+
+.sadie{
+position: fixed;
+margin-top: 500px ;
+margin-left: 620px;
+}
+
+.textbox{
+    background-color: aliceblue;
+    position: fixed;
+top: 100px;
+left: 400px;
+margin: 0px;
+padding: 30px;
+}

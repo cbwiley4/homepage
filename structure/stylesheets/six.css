@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(patch.png);
+    background-size: cover;
+    height: 9000px;
+    width:9000px;
+    background-repeat: no-repeat;
+} 
+    
+    
+
+
+.sadie{
+position:static;
+margin-top: 5500px ;
+margin-left: 1620px;
+}
+
+.textbox{
+    background-color: aliceblue;
+    position: fixed;
+top: 100px;
+left: 400px;
+margin: 0px;
+padding: 30px;
+font-family: "pf-videotext", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.clear{
+     background-color: rgba(255, 255, 255, 40); 
+  width: 200px;
+height: 300px;
+  padding: 20px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-width: 400px;
+  border-radius: 100px;
+}

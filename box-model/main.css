@@ -55,3 +55,9 @@ margin: 0px;
     right: 40px;
     margin: 0px;
 }
+
+.sticky{ 
+background-color:cornflowerblue;
+position: sticky;
+top:0px
+}
