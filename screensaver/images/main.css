@@ -1,0 +1,211 @@
+*{box-sizing: border-box;}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./background1.png);
+    background-size: cover;
+     overflow: hidden;
+     margin: 0;
+}
+
+.body{
+margin: 0;
+padding: 0;
+}
+
+.blue{
+    position: relative;
+    margin-top: 450px;
+    animation: hit 1s infinite;
+}
+
+@keyframes hit{
+    0%{
+        
+    }
+    50%{
+        margin-top: 430px;
+    }
+    60%{
+        margin-top: 450px;
+    }
+    100%{
+
+    }
+}
+
+.ball{
+    position: relative;
+    margin-top: 380px;
+    margin-left: -200px;
+    animation: ballbounce 1s infinite ease-in-out;
+}
+
+ @keyframes ballbounce{
+    0%{
+
+        }
+    50%
+    {
+        margin-top: 300px
+    }
+    100%{
+    
+    }
+ }
+ .purple{
+    position: fixed;
+    margin-top: 400px;
+    margin-left: 500px ;
+    animation: dance 4s infinite;
+}
+
+@keyframes dance{
+    0%{
+
+    }
+    30%{
+        rotate: -20deg;
+    }
+    40%{
+        rotate: 20deg;
+    }
+    50%{
+        rotate: -20deg;
+    }
+    60%{
+        rotate: 20deg;
+    }
+    100%{
+
+    }
+}
+
+ .black{
+    position: fixed;
+    margin-left: 480px;
+    margin-top: 425px;
+    animation: skate 4s infinite;
+ }
+
+ @keyframes skate{
+    0%{
+    
+    }
+    30%{
+        rotate: 40deg;
+    }
+    50%{
+        margin-left: 240px;
+    }
+    100%{
+
+    }
+ }
+
+ .trampoline{
+    position: fixed;
+    margin-left: 750px;
+    margin-top: 550px;
+ }
+
+.pink{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 430px;
+    animation: bounce 2s infinite ease-out
+}
+
+@keyframes bounce{
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+     margin-top: 200px;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+ 
+.cannon{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 460px;
+}
+
+.red{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 490px;
+    animation: launch 4s infinite
+}
+
+@keyframes launch{
+    0%{
+
+    }
+    50%{
+        margin-top: 30px;
+        margin-left: -140px;
+        scale: 50%;
+    }
+   50%{
+    opacity: 100%;
+   }
+   51%{opacity: 0%;}
+    100%{
+        opacity: 0%;
+    }
+}
+
+.green{
+    margin-top: 50px;
+    margin-left: -150px;
+    animation: fly 4s infinite ease-in-out
+}
+
+@keyframes fly{
+    0%{
+
+    }
+    15%{
+        margin-top: 150px;
+    }
+    50%{
+        margin-top: 100px;
+        margin-left: 890px;
+    }
+    60%{
+        margin-top: 150px;
+    }
+    100%{
+        
+    }
+    }
+
+.white{
+    position: fixed;
+    margin-top: 360px ;
+    margin-left: 1200px;
+    animation: shy 7s infinite ease-in-out;
+}
+
+@keyframes shy{
+    50%{
+        margin-left: 1300px;
+    }
+    100%{
+        margin-left: 1200px;
+    }
+}
+
