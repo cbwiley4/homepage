@@ -73,6 +73,12 @@ padding: 0;
     0%{
 
     }
+    10%{
+        rotate: -20deg;
+    }
+    20%{
+        rotate: 20deg;
+    }
     30%{
         rotate: -20deg;
     }
@@ -81,9 +87,19 @@ padding: 0;
     }
     50%{
         rotate: -20deg;
+        margin-left: 550px;
     }
     60%{
         rotate: 20deg;
+    }
+    70%{
+        rotate: -20deg;
+    }
+    80%{
+        rotate: 20deg;
+    }
+    90%{
+        rotate: -20deg;
     }
     100%{
 
