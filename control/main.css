@@ -1,0 +1,169 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image:url(./sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.shark {
+  opacity: 0;
+  position: fixed;
+
+}
+
+.fins {
+opacity: 1;
+position: fixed;
+margin-top: 350px;
+margin-left: 1000px;
+animation: swimming 16s infinite;
+}
+
+@keyframes swimming{
+    0%{
+    }
+    50%{ 
+        margin-left: 800px;
+    }
+    100%{
+    }
+}
+
+.birds{
+    opacity: 0;
+    position: fixed;
+    margin-left: 400px;
+    position: fixed;
+}
+
+.flying{
+    opacity: 1;
+    animation: flap 9s infinite ease-in;
+    position: fixed;
+}
+
+@keyframes flap{
+    0%{
+margin-left: -30px;
+    }
+    50%{
+    }
+    100%{
+margin-left: 1300px;
+margin-top: -30px;
+    }
+}
+
+.crab{
+    opacity: 0;
+    position: fixed;
+}
+
+.scuttle{
+    opacity: 1;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 450px;
+    animation: walkcrab 9s infinite;
+}
+
+@keyframes walkcrab {
+    0%{
+
+    }
+    100%{
+        margin-left: 40px;
+        margin-top: 700px;
+    }
+}
+
+.shells{
+    opacity: 0;
+    position: fixed;
+}
+
+.show{
+    opacity: 1;
+     position: fixed;
+     margin-left: 350px;
+    margin-top: 550px;
+}
+
+.boat{
+    margin-left: 205px;
+    margin-top: 330px;
+    position: fixed;
+    opacity: 0;
+}
+
+.sail{
+    opacity: 1;
+    animation: sailing 100s;
+}
+
+@keyframes sailing{
+    0%{
+
+    }
+    100%{
+        margin-left: 1500px;
+    }
+}
+
+.sandcastle{
+    position: fixed;
+    opacity: 0;
+    margin-left: 250px;
+    margin-top: 500px;
+}
+
+.built{
+    position: fixed;
+    opacity: 1;
+    animation: building 3s;
+}
+
+@keyframes building{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fish{
+    margin-left: 200px;
+    opacity: 0;
+    margin-top: 300px;
+    position: fixed;
+}
+
+.jump{
+    opacity: 1;
+}
+
+.plane{
+    position: fixed;
+    margin-left: 1300px;
+    margin-top: 150px;
+    opacity: 1;
+}
+
+.flying2{
+    opacity: 1;
+    animation: flight 20s;
+}
+
+@keyframes flight{
+    0%{
+
+    }
+
+    100%{
+    margin-left: -100px;
+    }
+}

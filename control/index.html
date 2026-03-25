@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Control</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <button onclick="shark()">shark</button>
+        <button onclick="birds()">seagulls</button>
+        <button onclick="crab()">crab</button>
+        <button onclick="shells()">seashell</button>
+        <button onclick="boat()">set sail!</button>
+        <button onclick="sandcastle()">build a sandcastle!</button>
+        <button onclick="fish()">fish</button>
+        <button onclick="plane()">plane</button>
+
+       
+
+        <div class="birds">
+            <img src="./birdies.gif" width="80px">
+        </div>
+
+         <div class="shark"> 
+           <img src="./fin.gif" width="100px">
+        </div>
+        <div class="crab">
+            <img src="./crab.gif">
+        </div>
+        <div class="shells">
+            <img src="shell1.png" width="40px">
+        </div>
+        <div class="shells">
+            <img src="shell2.png" width="40px">
+        </div>
+        <div class="boat">
+            <img src="./boat.png" width="30px">
+        </div>
+        <div class="sandcastle">
+            <img src="./sandcastle.png" width="100px">
+        </div>
+        <div class="fish">
+            <img src="./fish.gif" width="200px">
+        </div>
+        <div class="plane">
+            <img src="./plane.png" width="150px">
+        </div>
+
+        <script>
+            var menu = document.querySelector(".shark");
+            var add = document.querySelector(".birds");
+            var gear = document.querySelector(".crab");
+            var cat = document.querySelector(".shells");
+            var dog = document.querySelector(".boat");
+            var castle = document.querySelector(".sandcastle");
+            var fishi = document.querySelector(".fish");
+            var fly = document.querySelector(".plane");
+        
+
+            function shark() {
+            menu.classList.toggle("fins");
+            }
+
+            function birds() {
+                add.classList.toggle("flying");
+            }
+
+            function crab() {
+                gear.classList.toggle("scuttle");
+            }
+
+            function shells() {
+                cat.classList.toggle("show");
+            }
+
+            function boat() {
+                dog.classList.toggle("sail");
+            }
+
+            function sandcastle() {
+                castle.classList.toggle("built");
+            }
+
+            function fish() {
+                fishi.classList.toggle("jump");
+            }
+
+            function plane() {
+                fly.classList.toggle("flying2");
+            }
+           
+        </script>
+    </body>
+</html>
